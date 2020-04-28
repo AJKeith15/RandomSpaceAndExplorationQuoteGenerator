@@ -115,6 +115,23 @@ h1 {
   font-style: normal;
 }
 
+.about {
+  font-size: 0.8rem;
+  font-style: normal;
+}
+
+.about:before {
+  font-size: 0.8rem;
+  content: " (";
+  font-style: normal;
+}
+
+.about:after {
+  font-size: 0.8rem;
+  content: ")";
+  font-style: normal;
+}
+
 @media (min-width: 768px) {
   body {
     padding: 25px;
